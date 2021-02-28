@@ -21,6 +21,7 @@ We allow users to upload data in the forms of Images, Text doucments, and PDFs. 
 
 ## Installation
 
+NOTE : Tested on Python 3.6.8
 ```bash
 pip install cdQA
 pip install transformers
