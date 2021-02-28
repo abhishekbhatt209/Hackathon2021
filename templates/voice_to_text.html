@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+<br>
+
+
+   {% if msg %}
+   <h3>{{ msg }}</h3>
+   {% endif %}
+   <br>
+   <h3>Upload new File</h3>
+  <br>
+   <form method=post enctype=multipart/form-data>
+    {% csrf_token %}
+     <p><input type=file name=file>
+        <p><input type="text" name="question">
+        <input type=submit value=Upload>
+   </form>
+<br>
+<br>
+
+   <h3>Result:</h3>
+  
+   {% if extracted_text %}
+     <p> The extracted text from the audio above is: <br>
+         <b> {{ extracted_text }} </b></p>
+  
+   {% else %}
+     The extracted text will be displayed here
+   {% endif %}
+
+   {% if ans_of_q %}
+   <br>
+     <b> {{ ans_of_q }} </b></p>
+{%endif%}
+
+
+</div>
+<br>
+<br>
+<br>
+{% endblock %}

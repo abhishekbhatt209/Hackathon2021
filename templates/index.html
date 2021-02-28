@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+<br>
+
+
+<div class="card">
+	<div class="card-header sticky-top bg-light">
+    <h3><b>DASHBOARD</b></h3>
+  </div>   
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+
+<div class="row">
+
+
+  <div class="col-sm-3 text-center">
+    <div class="card">
+      <div class="card-body bg-light">
+
+        <a href="{% url 'img_to_text' %}" class="btn btn-light"><h5>Image</h5></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 text-center">
+    <div class="card">
+      <div class="card-body bg-light">
+
+        <a href="{% url 'pdf_to_text' %}" class="btn btn-light"><h5>PDF</h5></a>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+    </blockquote>
+  </div>
+</div>
+<br>
+<br>
+<br>
+{% endblock %}
