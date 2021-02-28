@@ -22,7 +22,6 @@ We allow users to upload data in the forms of Images, Text doucments, and PDFs. 
 * markdown
 * prettytable
 * wget
-* 
 
 ## Installation
 
