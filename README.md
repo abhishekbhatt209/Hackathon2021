@@ -28,8 +28,8 @@ pip install fpdf
 pip install pytesseract
 pip install pillow
 
-git clone https://github.com/ViswashMehta/NirmaHackathon.git
-cd NirmaHackathon
+git clone https://github.com/abhishekbhatt209/Hackathon2021.git
+cd Hackathon2021
 ```
 
 Additional software: [Tesseract](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe)
