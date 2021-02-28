@@ -9,25 +9,38 @@ We allow users to upload data in the forms of Images, Text doucments, and PDFs. 
 
 ## Packages used
 
-* pytorch
+* torch==1.7.1
 * django
 * cdqa
-* transformers
+* transformers==2.0
 * pydub
 * BERT_Squad1.1 [Model]
 * pytesseract
 * PIL
 * fpdf
+* tika
+* markdown
+* prettytable
+* wget
+* 
 
 ## Installation
 
 NOTE : Tested on Python 3.6.8
 ```bash
-pip install cdQA
-pip install transformers
-pip install fpdf
+pip install torch==1.7.1
+pip install django
+pip install cdqa
+pip install transformers==2.0
+pip install pydub
+pip install BERT_Squad1.1 [Model]
 pip install pytesseract
-pip install pillow
+pip install PIL
+pip install fpdf
+pip install tika
+pip install markdown
+pip install prettytable
+pip install wget
 
 git clone https://github.com/abhishekbhatt209/Hackathon2021.git
 cd Hackathon2021
