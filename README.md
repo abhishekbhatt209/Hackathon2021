@@ -37,7 +37,7 @@ Additional software: [Tesseract](https://digi.bib.uni-mannheim.de/tesseract/tess
 ## Usage
 
 ```python
-manage.py runserver
+python manage.py runserver
 ```
 ## References
 
